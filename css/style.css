@@ -159,6 +159,11 @@ nav {
 	cursor: pointer;
 }
 
+.body-list {
+	width: 85%;
+	margin: 0 auto;
+}
+
 
 .list li {
 	text-decoration: none;
@@ -332,4 +337,29 @@ body-card {
   .grid {
     grid-gap: 3rem;
   }
+}
+.container1 {
+	width: 70%;
+	margin: 0 auto;
+}
+.container1 a {
+	color: #3C1874;
+	text-decoration: none;
+}
+.container1 b{
+	color: #DE354C
+}
+.container1 img{
+	position: relative;
+	left: -4px;
+	top: 9px;
+}
+.container1 p{
+	line-height: 1.5em;
+	font-size: 20px;
+	margin-bottom: 22px;
+}
+iframe {
+	width: 100%;
+	margin: 0 auto;
 }
