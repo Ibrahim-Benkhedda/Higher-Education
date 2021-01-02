@@ -1,3 +1,5 @@
+// BEGINNING OF NAV BAR;
+
 function navSlide() {
     const burger = document.querySelector(".burger");
     const nav = document.querySelector(".nav-links");
@@ -22,3 +24,9 @@ function navSlide() {
 }
 
 navSlide();
+// END OF NAV BAR;
+// BEGINNING OF SIDE BAR;
+function toggleSidebar(ref){
+  document.getElementById("sidebar").classList.toggle('active');
+}
+// END OF SIDE BAR;
